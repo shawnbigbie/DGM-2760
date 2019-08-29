@@ -4,17 +4,54 @@ img[alt*="www.000webhost.com"] {
 }
 
 body{
+    margin: 0px;
     width: 100%;
+    height: 1000px;
+    position: absolute;
+    color: black;
 }
 
 header{
     max-width: 75rem;
+    max-height: 250px;
     margin: 0 auto;
+    background-color: black;
+    margin-bottom: 250px;
+}
+
+#company{
+    position: relative;
+    float: right;
+    max-width: auto;
+    margin-top: -240px;
+    padding: 5px;
+    font-size: 40px;
+    color: gold;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#slogan{
+    position: relative;
+    float: right;
+    max-width: auto;
+    margin-top: -180px;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#logo{
+    width: 250px;
+    float: left;
+    height: 250px;
+    position: absolute;
 }
 
 #headerimg{
-    width:  100%; /*or 70%, or what you want*/
-    height: 250px; /*or 70%, or what you want*/
+    width:  90%;
+    height: 250px;
+    float: right;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,9 +60,84 @@ header{
 main{
     max-width: 75rem;
     margin: 0 auto;
+    position: relative;
+}
+
+#pageName{
+    color: gold;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 26px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+ul{
+    margin: 0px;
+}
+
+li{
+    font-size: 18px;
+    padding: 5px;
+}
+
+#greeting{
+    font-size: 18px;
+    margin: 0px;
+    padding-left: 20px;
 }
 
 footer{
-    max-width: 75rem;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#footertext{
+  padding-bottom:15px;
+}
+
+@media only screen and (max-width: 735px) {
+    #logo{
+        display: none;
+    }
+    #headerimg{
+        width:  100%;
+    }  
+}
+
+@media only screen and (max-width: 485px) {
+    #company{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-top: -200px;
+        text-align: center;
+        padding: 5px;
+        font-size: 30px;
+        color: gold;
+        background-color: rgba(0,0,0,0.3);
+    }
+    
+    #slogan{
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-top: auto;
+        text-align: center;
+        padding: 5px;
+        font-size: 24px;
+        color: white;
+        background-color: rgba(0,0,0,0.3);
+    }
 }

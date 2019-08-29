@@ -1,4 +1,4 @@
-//document.getElementById('company').innerHTML = "Joe's Bed and Breakfast"
+//document.getElementById('company').innerHTML = "Shawn's Bed and Breakfast"
 
 document.querySelector('#company').innerText = "Shawn's Bed and Breakfast"
 
