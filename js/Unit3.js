@@ -53,7 +53,7 @@ function giveAward() {
         case 6:
             imagePath = '../images/2ndplace.PNG'
         break
-        case 7:
+        default:
             imagePath = '../images/3rdplace.PNG'
         break
     }
