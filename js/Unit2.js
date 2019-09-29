@@ -1,5 +1,3 @@
-//document.getElementById('company').innerHTML = "Shawn's Bed and Breakfast"
-
 document.querySelector('#company').innerText = "Website Inspector"
 
 document.querySelector('#slogan').innerText = "Inspector for the Webpage Properities"
