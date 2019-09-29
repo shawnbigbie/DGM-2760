@@ -2,7 +2,7 @@ document.querySelector('#company').innerText = "Guessing Game"
 
 document.querySelector('#slogan').innerText = "Loops"
 
-document.querySelector('#instructions').innerText = "In this game you try to guess a random number between 1 and 16 in as few tries as possible. You will be awarded a ribbon for your tries, Good luck. If you would like to play again, refresh the page."
+document.querySelector('#instructions').innerText = "In this game you try to guess a random number between 1 and 15 in as few tries as possible. You will be awarded a ribbon for your tries, Good luck. If you would like to play again, refresh the page."
 
 // Pick a random number between 0 and 16
 
