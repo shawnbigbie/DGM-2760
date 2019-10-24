@@ -26,7 +26,7 @@ function tellStory(){
     console.log(verb)
 
     // Story Setup
-    const myStory = `Meet your new supper ${noun[2]}, a supper-${adjective[1]} and ${adjective[0]} hero. He has lots of powers such as ${verb[1]}ing and ${verb[2]}ing, He fights crime at Night in a ${noun[0]} and Eventually wins over the ${adjective[2]} enemy by subdued them by ${verb[0]}ing them with a ${noun[1]}, The End.`
+    const myStory = `Meet your new supper ${noun[2]}, a supper-${adjective[1]} and ${adjective[0]} hero. He has lots of powers such as ${verb[1]}ing and ${verb[2]}ing, He fights crime at Night in ${noun[0]} and Eventually wins over the ${adjective[2]} enemy by ${verb[0]}ing a ${noun[1]} at them, The End.`
 
     // Send Story back to Webpage HTML
     document.querySelector('#story').innerHTML = myStory
