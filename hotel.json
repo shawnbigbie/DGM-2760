@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "258 Broad Street",
+            "picture": "../images/hotel1.jpg"
+        },
+        {
+            "name": "Sharaton",
+            "rooms": "48",
+            "gym": "No",
+            "roomTypes": ["Queen"],
+            "address": "685 Walk Street",
+            "picture": "../images/hotel2.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": "23",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen"],
+            "address": "792 Sleep Drive",
+            "picture": "../images/hotel3.jpg"
+        }
+    ]
+}
